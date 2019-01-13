@@ -1,0 +1,21 @@
+name: "Julia E. Chambers"
+output_dir: "."
+navbar:
+  title: "Julia E. Chambers"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/juliachambers
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/juliaechambers/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
